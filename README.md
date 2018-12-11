@@ -91,7 +91,10 @@ Testing set: 10% of the entire data set. Equivalent to the end of 3918 rows of t
 2.During Black Friday, consumers are mainly young people who have purchased at least one item. From the age of 18 to 45, this age group is the main consumer, and people over the age of 46 should have higher incomes, but the desire to buy is not strong.and the highest consumption power of customers in the 26-35 age group among all consumers.
 
 3.By dividing the purchase amount, we can know that most people will spend a lot of money during the Black Friday period.
-
+4.The result for linear regression has some plot, the first is the Residuals vs Fitted.
+This plot shows if residuals have non-linear patterns. From the plot, we can see that the most of the data were around the line, so we can image that there is not much non-linear patterns in this dataset.
+Next is Normal Q-Q. This plot shows if residuals are normally distributed. Do residuals follow a straight line well or do they deviate severely. In this project, our line is not follow a straight line well, so this plot shows that the residuals are not normally distributed.
+In linear regression, age and gender have correlation with the sum purchase amount in black friday due to the p-value in this result. Marital status might have or not have correlation to the sum purchase amounts.
 ##Reference
 
 Sellerapp.com. (2018). SellerApp: Complete Amazon Suite for PPC, Portfolio, Keywords, Sales. [online] Available at: <https://www.sellerapp.com/black-friday-analysis-2017> [Accessed 3 Dec. 2018].
