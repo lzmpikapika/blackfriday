@@ -16,8 +16,7 @@ Non-academic Approaches: What Is Black Friday? Sales and Trends.
 
 ### Linear regression
 
-In this case use linear regression to find a relationship between all purchase and Age,Gender,Marital_Status the three aspect.
-
+In this case use linear regression to find a relationship between all purchase and Age,Gender,Marital_Status the three aspect.The aim of this project is to build a simple regression model that we can use to predict purchase by establishing a statistically significant linear relationship with this three variables.
 
 ### Classifier
 
@@ -27,11 +26,19 @@ Used to divide the specific variables that will be observed, make independent va
 
 ### Design
 
+Through the cleanup and division of the raw data of the Black Friday, the main research on the influence of these independent variables of age and gender and marital status on purchase.
 
+First, use bar plot to compare the number of customers in gender. Gender ratio used to discover customers.Then get the average purchase amount, compare the average purchase of male and female customers.Used to determine that a part’s purchase is indeed higher than the other part.
+
+Second,statistics for customers of different ages.Used to observe the effect of age on purchases.
+
+Third,we classify new data by purchase amount,and the data is divided into 5 levels and marked with "12345" numbers.Corresponding "Easy","Medium","Great","Hard"，"Hell" five levels.
+
+Last,build Linear regression model to training and testing data,and draw conclusions from these plots.This linear model aim to found the correlations between purchase and "Age","Gender" and "marital statu".
 
 ### Design and Implementation Constraints
 
-
+Only have one year of data is not conducive to accurate predictions.
 
 ##Data explanation
 
@@ -75,16 +82,15 @@ Testing set: 10% of the entire data set. Equivalent to the end of 3918 rows of t
 
 ##Testing and validation procedure
 
-```{r fit}
-summary(fit)
-```
-```{r fit, echo=FALSE}
-rpart.plot(fit)
-```
+![linear2](/Users/zimin/Downloads/WechatIMG220.jpeg)
 
 ##Results
 
+1.Male customers have higher purchasing power than females.
 
+2.During Black Friday, consumers are mainly young people who have purchased at least one item. From the age of 18 to 45, this age group is the main consumer, and people over the age of 46 should have higher incomes, but the desire to buy is not strong.and the highest consumption power of customers in the 26-35 age group among all consumers.
+
+3.By dividing the purchase amount, we can know that most people will spend a lot of money during the Black Friday period.
 
 ##Reference
 
